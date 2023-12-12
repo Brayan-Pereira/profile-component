@@ -1,0 +1,14 @@
+.btn{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    width: 170px;
+    font-size:large;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(0, 132, 255), rgb(141, 197, 250));
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    display:block;
+}
