@@ -5,13 +5,14 @@ function App() {
   return (
     <div className="app">
       <CardProfile
-        urlImage="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
+        urlImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSB-KKw-eV2DfeuWVea5cuHlmQccrEWTsQ7EsRjaex6B6uKsLvQ4lMGlqW27MIZmpaoE&usqp=CAU"
         name="Brayan Pereira da Silva"
-        info1= "Dev Fullstack in Javascript"
-        info2= "+5541992624356"
-        info3= "bp410794@gmail.com"
+        info1="Dev Fullstack in Javascript"
+        info2="+5541992624356"
+        info3="bp410794@gmail.com"
       />
-      
+
+
     </div>
 
   )
