@@ -3,17 +3,18 @@ import Profile from "./profile/Profile.jsx"
 import Description from "./descriptions/Descriptions.jsx"
 import Button from "./btn_Socials/Socials.jsx"
 
-export default function Card(){
+export default function Card({
+    urlImage, name, info1, info2, info3
+}){
     return (
         <div className={Style.card}>
            <Profile 
-           urlImage="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
-           name="Brayan Pereira da Silva"
+           urlImage={urlImage}  name={name}
            />
 
-            <Description informacao= "Dev Fullstack in Javascript"/>
-            <Description informacao= "+5541992624356"/>
-            <Description informacao= "bp410794@gmail.com"/>
+            <Description informacao= {info1}/>
+            <Description informacao= {info2}/>
+            <Description informacao= {info3}/>
 
             <Button link= "GitHub"/>
             <Button link= "Linkedin"/>
